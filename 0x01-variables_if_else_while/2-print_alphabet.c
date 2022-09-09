@@ -6,16 +6,12 @@
  * Return: Always 0 (Success/correct)
  */
 int main(void)
-
 {
-char alphabet;
-
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(alphabet);
+    putchar(ch);
 }
-
 putchar('\n');
-
 return (0);
 }
