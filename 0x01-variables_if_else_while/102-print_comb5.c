@@ -2,29 +2,14 @@
 
 
 /**
-
-
  * main - print possible combination of two 2-digit
-
-
  * numbers
-
-
  *
-
-
  * Return: returns zero at the end
-
-
  */
 
-
 int main(void)
-
-
 {
-
-
 int i, p;
 for (i = 0; i < 100; i++)
 {
