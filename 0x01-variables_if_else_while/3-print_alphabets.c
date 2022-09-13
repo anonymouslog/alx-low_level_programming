@@ -1,23 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - Print if the number is positive, zero, or negative
- * 
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative"
- * Return (0)
+ * main - lowercase and uppercase
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
 {
-    putchar(ch);
+putchar(c);
 }
-for (ch = 'a' ; ch <= 'z' ; ch++)
+
+for (c = 'A'; c <= 'Z'; c++)
 {
-    putchar(ch);
+putchar(c);
 }
+
 putchar('\n');
+
 return (0);
 }
- 
